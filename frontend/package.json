@@ -1,0 +1,54 @@
+{
+  "name": "project",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Dmitry <dima@kitendo.ru>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=development webpack --",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "watch": "cross-env NODE_ENV=development webpack --watch"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.2",
+    "jquery": "^3.3.1",
+    "moment": "^2.21.0",
+    "vue": "^2.5.16",
+    "vue-cookie": "^1.1.4",
+    "vue-cookies": "^1.5.12",
+    "vue-multiselect": "^2.1.3",
+    "vue-router": "^3.0.1",
+    "vue-select": "^2.4.0",
+    "vue-spinner": "^1.0.3",
+    "vue-table-component": "^1.9.1",
+    "vue-the-mask": "^0.11.1",
+    "vue-yandex-maps": "^0.7.8",
+    "vue2-typeahead": "^1.0.30",
+    "vuex": "^3.1.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.8.2",
+    "sass-loader": "^6.0.7",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}

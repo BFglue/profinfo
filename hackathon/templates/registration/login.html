@@ -1,0 +1,41 @@
+{% extends "registration/layout.html" %}
+
+{% block main %}
+<form class="form-horizontal form-material" id="loginform" action="" method="post">
+    {% csrf_token %}
+    <h3 class="box-title m-b-20">Вход в систему ПРОФИНФО</h3>
+    <div class="form-group ">
+        <div class="col-xs-12">
+            <input class="form-control" id="username" name="username" type="text" required="" placeholder="Имя пользователя" {% if email %}value="{{ email }}"{% endif %}> </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-12">
+            <input class="form-control" id="password" name="password" type="password" required="" placeholder="Пароль"> </div>
+    </div>
+    <div class="form-group text-center m-t-20">
+        <div class="col-xs-12">
+            <button class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Войти</button>
+        </div>
+    </div>
+    <!-- <div class="form-group m-b-0">
+        <div class="col-sm-12 text-center">
+            <div>Впервые здесь? <a href="/register/" class="text-info m-l-5"><b>Зарегистрируйтесь</b></a></div>
+        </div>
+    </div> -->
+</form>
+
+{% endblock %}
+
+
+{% block scripts %}
+    <script>
+    $(function() {
+        if ($('#username').val()) {
+            $('#password').focus();
+        }
+        else {
+            $('#username').focus();
+        }
+    });
+    </script>
+{% endblock %}

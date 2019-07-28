@@ -1,0 +1,121 @@
+.navbar-header {
+    width: 80px;
+}
+
+.input-group-btn .btn {
+    height: 40px;
+    line-height: 23px;
+}
+
+.editable {
+    cursor: pointer;
+    border-bottom: 1px dotted #007bff;
+    padding: 0 2px;
+    color: #007bff;
+}
+
+.u-text {
+    float: right;
+    width: 170px;
+    white-space: normal !important;
+}
+
+.dropdown-user li {
+    clear: both;
+}
+
+.xrm-input-count {
+    width: 70px !important;
+    padding-right: 0 !important;
+}
+
+.text-light a {
+    color: #fff !important;
+}
+
+th {
+    /*font-weight: bold !important;*/
+    color: #333 !important;
+
+}
+
+thead {
+    background-color: #ddd;
+}
+
+.label {
+    position: relative;
+    top: -1px;
+}
+
+.xrm-accent {
+    background-color: #bbb;
+}
+
+.xrm-input-sm {
+    width: 70px;
+}
+
+.xrm-input-lg {
+    width: 140px;
+}
+
+.xrm-th-checkbox {
+    margin: 0 !important;
+    position: relative;
+    top: 2px;
+}
+
+.xrm-clickable {
+    cursor: pointer;
+    border-bottom: 1px dotted #007bff;
+    padding: 0 2px;
+    color: #007bff;
+}
+
+.xrm-postaddress {
+    max-width: 300px;
+}
+
+.popover.clockpicker-popover {
+    z-index: 1050;
+}
+
+.xrm-pin {
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+}
+
+.xrm-balance {
+    text-align: right;
+}
+
+.xrm-copy-btn {
+    cursor: pointer;
+}
+
+.xrm-slim-list, .xrm-slim-list li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+}
+
+
+.xrm-row-info-hidden {
+    border-top: none;
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
